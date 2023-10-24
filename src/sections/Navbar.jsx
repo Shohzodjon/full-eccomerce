@@ -30,26 +30,30 @@ const Navbar = () => {
               </a>
             </li>
           </ul>
-          <ul className="navbar__">
+          <ul className="navbar__icon__list">
             <li>
               <label htmlFor="navbar__search__input">
-                <input id="navabr__search__input" type="text" />
-                <BiSearch />
+                <input
+                  id="navabr__search__input"
+                  type="text"
+                  placeholder="What are you looking for?"
+                />
+                <BiSearch fontSize="1.5rem" />
               </label>
             </li>
             <li>
-              <PiHeart />
+              <PiHeart fontSize="1.5rem" />
             </li>
             <li>
-              <MdOutlineLocalGroceryStore />
+              <MdOutlineLocalGroceryStore fontSize="1.5rem" />
             </li>
             <li>
-              <LuUser />
+              <LuUser fontSize="1.5rem" />
             </li>
-            <li>sasasasas</li>
           </ul>
         </div>
       </div>
+      <div className="navbar__line"></div>
     </nav>
   );
 };
