@@ -1,4 +1,5 @@
 import { LiaTelegramPlane } from "react-icons/lia";
+import QrCode from '../assets/images/qrcode.svg'
 const Footer = () => {
   return (
     <footer>
@@ -6,7 +7,7 @@ const Footer = () => {
         <div className="footer__flex">
           <ul>
             <li>
-              <a href="#">
+              <a href="#" className="footer__exclusive__link">
                 <b>Exclusive</b>
               </a>
             </li>
@@ -83,6 +84,19 @@ const Footer = () => {
             </li>
             <li>
               <a href="#">Contact</a>
+            </li>
+          </ul>
+          {/* fourth list */}
+          <ul>
+            <li><a href="#"><b>Download App</b></a></li>
+            <li><a href="#">Save $3 with App New User Only</a></li>
+            <li>
+              <div>
+                <img src={QrCode} alt="qr-code" />
+                <div className="footer__playmarket">
+                  <a href="#"></a>
+                </div>
+              </div>
             </li>
           </ul>
         </div>

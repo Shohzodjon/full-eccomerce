@@ -1,0 +1,32 @@
+footer {
+  background: $dark-color;
+  padding: 8rem 0 2.4rem 0;
+
+  .footer__flex {
+    display: flex;
+    gap: 87px;
+    ul {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      li {
+        &:nth-child(1) {
+          margin-bottom: 8px;
+          a {
+            b {
+              font-size: 1.8rem;
+              font-weight: 500;
+              line-height: 25px;
+            }
+          }
+        }
+        a {
+          color: $product-card-bg;
+          font-size: 1.4rem;
+          font-weight: 400;
+          line-height: 22px;
+        }
+      }
+    }
+  }
+}
