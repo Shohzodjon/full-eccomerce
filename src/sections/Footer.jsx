@@ -1,5 +1,10 @@
-import { LiaTelegramPlane } from "react-icons/lia";
+import { LiaTelegramPlane, LiaFacebookF } from "react-icons/lia";
+import {BiLogoFacebook} from 'react-icons/bi'
+import {FiTwitter, FiInstagram} from 'react-icons/fi';
+import {RiLinkedinLine} from 'react-icons/ri'
 import QrCode from '../assets/images/qrcode.svg'
+import playmarket from '../assets/images/playmarket.png';
+import appstore from '../assets/images/appstore.png';
 const Footer = () => {
   return (
     <footer>
@@ -94,9 +99,18 @@ const Footer = () => {
               <div>
                 <img src={QrCode} alt="qr-code" />
                 <div className="footer__playmarket">
-                  <a href="#"></a>
+                  <a href="#"><img src={playmarket} alt="playmarket" /></a>
+                  <a href="#"><img src={appstore} alt="appstore" /></a>
                 </div>
               </div>
+            </li>
+            <li>
+              <ol>
+                <li><a href="#"><LiaFacebookF fontSize="2rem"/></a></li>
+                <li><a href="#"><FiTwitter fontSize="2rem"/></a></li>
+                <li><a href="#"><FiInstagram fontSize="2rem"/></a></li>
+                <li><a href="#"><RiLinkedinLine fontSize="2rem"/></a></li>
+              </ol>
             </li>
           </ul>
         </div>

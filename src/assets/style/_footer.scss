@@ -26,6 +26,26 @@ footer {
           font-weight: 400;
           line-height: 22px;
         }
+        div{
+          display: flex;
+          gap:8px;
+          align-items: center;
+          .footer__playmarket{
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            img{
+              max-height: 40px;
+            }
+          }
+        }
+        ol{
+          display: flex;
+          margin-top: 2rem;
+          gap: 2.4rem;
+          list-style: none;
+        }
+   
       }
     }
   }
